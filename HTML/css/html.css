@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: '이쁜폰트';
+    src: url('../font/NanumSquareB.ttf');
+}
+
+
+body {
+    margin:0;
+    /* display: block; */
+    /* inherit돼서 적용됨 */
+    /* font-family: '이쁜폰트';  */
+    font-family: 'gulim';
+
+}
+
+p,h4,h3,h2,h1,span {
+    transform: rotate(0.03deg);
+}
+
+
+table {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing : 0px;
+} 
+
+
+/* table {
+    border-collapse : collapse;
+    border-radius : 7px;
+    border-style : hidden;
+    box-shadow : 0 0 0 1px #c2d3ed;
+} */
+
+  .cart-table td, .cart-table th {
+    padding:15px;
+    border-bottom:1px solid #c2d3ed;
+    text-align: center;
+  }
+
+.cart-background{
+    width: 100%;
+    background-color: #c2d3de;
+    padding:30px;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.cart-table {
+    /* width:100%; */
+    max-width:700px;
+    background-color: white;
+    border-radius:10px
+}
+.cart-table th:nth-child(2) {
+    width:400px;
+
+}
+
+.btn{
+    padding:15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: darkblue;
+}
+.btn:focus {
+    background-color: red;
+}
+.btn:active {
+    background-color: black;
+}
+
+.custom-link{
+    text-decoration: none;
+}
+.custom-link:link{
+    color: red;
+}
+.custom-link:visited{
+    color:black
+}
+
+.main-btn {
+    padding:15px;
+    font-size:20px;
+    border:none;
+    cursor:pointer;
+}
+.bg-red{
+    background-color: red;
+    color:white
+}
+.bg-blue{
+    background-color: blue;
+    color: white;
+}
